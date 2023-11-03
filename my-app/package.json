@@ -50,8 +50,8 @@
       "airbnb-typescript"
     ],
     "rules": {
-      "react/require-default-props":0,
-      "@typescript-eslint/naming-convention":0,
+      "react/require-default-props": 0,
+      "@typescript-eslint/naming-convention": 0,
       "arrow-parens": 0,
       "react/function-component-definition": 0,
       "import/no-named-as-default": 0,
@@ -93,15 +93,9 @@
     "parserOptions": {
       "project": [
         "./tsconfig.json",
-				"./tsconfig.node.json"
+        "./tsconfig.node.json"
       ]
     }
   },
   "prettier": "prettier-config-nick"
 }
-
-
-
-
-
-
